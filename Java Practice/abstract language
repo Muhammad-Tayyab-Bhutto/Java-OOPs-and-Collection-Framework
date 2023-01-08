@@ -1,0 +1,73 @@
+abstract class Bank
+{   
+    // abstract int getbalance();
+    Bank(){
+        System.out.println("This is Abstract Base Class.")
+    }
+
+}
+public class Bank1 extends Bank{
+    Bank1(){
+        System.out.println("This is Inherited Class.")
+    }
+
+    int b;
+    void setData(int b)
+    {
+        this.b=b;
+    }
+    int getbalance()
+    {
+        return b;
+
+    }
+
+}
+public class Bank2 extends Bank{
+    int b;
+    Bank2(){
+        System.out.println("This is Inherited Class.")
+    }
+    void setData(int b)
+    {
+        this.b=b;
+    }
+    int getbalance()
+    {
+        return b;
+
+    }
+}
+public class Bank3 extends Bank{
+    int b;
+    Bank3(){
+        System.out.println("This is Inherited Class.")
+    }
+    void setData(int b)
+    {
+        this.b=b;
+    }
+    int getbalance()
+    {
+        return b;
+
+    }   
+}
+public class AbstractBank{
+    public static void main(String [] args)
+    {
+        Bank1 b1=new Bank1();
+        Bank2 c1=new Bank2();
+        Bank3 d1=new Bank3();
+        b1.setData(100);
+        c1.setData(150);
+        d1.setData(200);
+        int w = b1.getbalance();
+        System.out.println(b);
+        w = c1.getbalance();
+        System.out.println(b);
+         w = d1.getbalance();
+        System.out.println(b);
+
+    }
+}

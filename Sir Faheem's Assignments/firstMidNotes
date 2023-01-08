@@ -1,0 +1,7 @@
+Contructor Vs Method of Class
+Constructor is used to create an object of class 
+while method is user to exhibits to functionality of an object.
+Constructors are invoked implicitly
+while method are invoked explicitly.
+Constructors dose not return any value.
+while method may or may not return any value.

@@ -1,0 +1,32 @@
+abstract public class Ab
+{
+    void methode()
+    {
+        System.out.println("this is normal methode of abstract class");
+    }
+    Ab()
+    {
+            System.out.println("This is non abstract class ");
+
+    }
+    abstract void a_method();
+
+}
+public class Subclass extends Ab
+{
+    void a_methode()
+    {
+        System.out.println("this is a abstract methode");
+    }
+
+}
+public class AND
+{
+    public Static void main(String args[])
+    {
+        Subclass s=new Subclass;
+         s.Ab();
+         s.methode();   
+
+    }
+}

@@ -1,0 +1,38 @@
+Data Structues 
+Data Structues is a combination of two words data and structues which means arrangin data in
+a computer.
+There are two types of data structues.
+1. Linear data structues.
+2. Non Linear data structues.
+
+1. Linear data structues
+            Linear data structues allows data to be arranged in sequential manner.
+            Every elements has neighbours-left and right.
+            They have predefined extreames
+            example => Arrays, Linked List, Stack, Queues.
+            Arrays => Stores data in contiguous memory
+                      Access elements randomly
+                      Stores Homogeneous elements
+                      Applications:
+                           Suitable for applications that requires freequently searchings.
+                           Storing information.(In Linear Way)
+                      
+                      1D Array
+                           1D array can be related to a row
+                           Elements are stored one after another
+                           Only one subscript or index is used.
+                      2D Array
+                           2D Array related to table or metrix
+                           Elements are stored one after another i.e 1D inside other
+                           Two subscripts or indexes used i.e one for row and other for column
+                           Dimentions depends on the number of subsciption or indexes
+
+            Linked List => It dose not require any conguous memory so we can insert or delet elements
+            Stack => last in first out.
+            Queue => first in first out.
+
+2. Non Linear data structues
+            Non Linear data structues allows data to arranged in non sequential manner.
+            There can not be 'n' neighbours of a single element.
+            They don't have predefined extremes.
+            example => Binary Tree, Binary Search Tree, Graph, AVL Trees, Red Black Trees e.t.c

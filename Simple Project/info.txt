@@ -1,0 +1,16 @@
+
+Gender: Female
+Name: Rabia Zubair
+Id: 12345
+Diagnosis: Rosacea
+Treated by: Dr.Ghazanfar Ali
+Dose: Panadol
+Treatment:  Improved
+Gender: Male
+Name: M.Umair
+Id: 78293
+Diagnosis: Warts
+Medication:  methotrexate
+Treated by: Dr.Yasmeen Nasir
+Dose: calc
+Treatment:  Reffered to other specialty unit
